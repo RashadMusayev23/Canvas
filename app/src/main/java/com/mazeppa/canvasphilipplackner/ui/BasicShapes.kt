@@ -11,6 +11,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
+import com.mazeppa.canvasphilipplackner.ui.theme.Teal
 
 /**
  * @author Rashad Musayev (https://github.com/RashadMusayev23) on 1/28/2023
@@ -46,7 +47,7 @@ fun MyCanvas() {
         )
 
         drawArc(
-            color = Color.Green,
+            color = Teal,
             startAngle = 0f,
             sweepAngle = -270f,
             useCenter = true,
